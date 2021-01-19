@@ -23,11 +23,11 @@ insert into Customer.Customers
 VALUES
 (Tina, Smith);
 
-select Orders.CustomerID, 
 
-update Customer.Products
+select Prodcuts.Price, Products.Name
+update Products.Price
 set Price = 250.00
-where Name = iPhone;
+where Products.Name = iPhone;
 
 
 
